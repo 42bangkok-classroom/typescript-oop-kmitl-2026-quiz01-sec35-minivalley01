@@ -3,7 +3,7 @@ const point = Number(input2);
 if (Number.isNaN(point)){
     console.log('Invail Input');
 }else if ( point < 0 || point > 100){
-    console.log('Invaild Input');
+    console.log('Invalid Input');
 }else{
     if(point >= 80){
         console.log('Grade is A');
